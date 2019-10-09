@@ -11,4 +11,4 @@ You must solve all the problems located in the folder problems.  You are welcome
 ### How to do it
 Once you are finished, just send all the completed submissions files by email to chris@medgo.fr.
 
-# Good luck !
+### Good luck !
