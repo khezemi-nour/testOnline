@@ -24,7 +24,7 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// Complete the lilysHomework function below.
+// Complete the function below.
 function lilysHomework(arr) {
 
 

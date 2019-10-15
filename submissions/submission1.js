@@ -24,7 +24,7 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// Complete the minimumLoss function below.
+// Complete the function below.
 function minimumLoss(price) {
 
 
