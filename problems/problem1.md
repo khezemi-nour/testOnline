@@ -19,7 +19,7 @@ The first line contains an integer **n**, the number of years of house data.
 The second line contains **n** space-separated long integers describing each **price[i]**.
 
 # Constraints
-- 2 <= n <= 20000
+- 2 <= n <= 200000
 - 1 <= price[i] <= 1O^16
 - All the prices are distinct.
 - A valid answer exists.

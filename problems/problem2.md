@@ -15,7 +15,7 @@ arr: an integer array
 The first line contains a single integer, **n**, the number of elements in **arr**. The second line contains **n** space-separated integers **arr[i]**.
 
 # Constraints
-- 1 <= n <= 10000
+- 1 <= n <= 100000
 - 1 <= arr[i] <= 2 * 1O^9
 
 # Output Format
