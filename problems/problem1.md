@@ -40,3 +40,27 @@ Print a single integer denoting the minimum amount of money Lauren must lose if 
 ### Explanation 1
 
 Lauren buys the house in year **2** at **price[1] = 7** and sells it in year **5** at **price[4] = 5** for a minimal loss of **7 - 5 = 2**
+
+
+### Sample Input 2
+5
+20 15 8 2 12
+
+### Sample Output 2
+3
+
+### Explanation 2
+
+Lauren buys the house in year **2** at **price[1] = 15** and sells it in year **5** at **price[4] = 12** for a minimal loss of **15 - 12 = 3**
+
+
+### Sample Input 3
+3
+5 10 3
+
+### Sample Output 3
+2
+
+### Explanation 3
+
+Lauren buys the house in year **1** at **price[0] = 5** and sells it in year **3** at **price[2] = 3** for a minimal loss of **5 - 3 = 2**
