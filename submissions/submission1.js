@@ -1,7 +1,9 @@
 'use strict';
 
 const fs = require('fs');
-
+const N=200000;
+ 
+var st = [];
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 
@@ -24,20 +26,21 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// Complete the function below.
-function minimumLoss(price) {
 
+// Complete the minimumLoss function below.
+function minimumLoss(price , n) {
 
 }
 
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
-    const n = parseInt(readLine(), 10);
+       var n = parseInt(readLine());
+        var price = readLine().split(' ');
+        price = price.map(Number);
 
-    const price = readLine().split(' ').map(priceTemp => parseInt(priceTemp, 10));
 
-    let result = minimumLoss(price);
+    let result = minimumLoss(price , n);
 
     ws.write(result + "\n");
 
