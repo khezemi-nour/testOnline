@@ -24,18 +24,18 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-
 // Complete the lilysHomework function below.
 function lilysHomework(arr) {
+
 
 }
 
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
-    var n = parseInt(readLine());
-    var arr = readLine().split(' ');
-    arr = arr.map(Number);
+    const n = parseInt(readLine(), 10);
+
+    const arr = readLine().split(' ').map(arrTemp => parseInt(arrTemp, 10));
 
     let result = lilysHomework(arr);
 
