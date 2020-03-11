@@ -23,9 +23,9 @@ function readLine() {
 }
 
 /*
- * Complete the buildPalindrome function below.
+ * Complete the countStrings function below.
  */
-function buildPalindrome(a, b) {
+function countStrings(r, l) {
     /*
      * Write your code here.
      */
@@ -38,11 +38,13 @@ function main() {
     const t = parseInt(readLine(), 10);
 
     for (let tItr = 0; tItr < t; tItr++) {
-        const a = readLine();
+        const rl = readLine().split(' ');
 
-        const b = readLine();
+        const r = rl[0];
 
-        let result = buildPalindrome(a, b);
+        const l = parseInt(rl[1], 10);
+
+        let result = countStrings(r, l);
 
         ws.write(result + "\n");
     }
