@@ -1,3 +1,7 @@
+# Link
+
+https://www.hackerrank.com/challenges/lilys-homework/problem
+
 # Description
 
 Consider an array of **n** distinct integers, **arr = [a[0], ..., a[n-1]]**. George can swap any two elements of the array any number of times. An array is beautiful if the sum of **|arr[i] - arr[i-1]|** among **0 < i < n** is minimal.

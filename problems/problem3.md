@@ -1,3 +1,7 @@
+# Link
+
+https://www.hackerrank.com/challenges/challenging-palindromes/problem
+
 # Description
 
 You have two strings, **a** and **b**. Find a string, **s**, such that:

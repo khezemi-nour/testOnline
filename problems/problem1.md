@@ -1,3 +1,7 @@
+# Link
+
+https://www.hackerrank.com/challenges/minimum-loss/problem
+
 # Description
 
 Lauren has a chart of distinct projected prices for a house over the next several years. She must buy the house in one year and sell it in another, and she must do so at a loss. She wants to minimize her financial loss.
